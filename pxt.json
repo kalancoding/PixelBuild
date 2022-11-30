@@ -1,0 +1,63 @@
+{
+    "name": "PixelBuild Jumping Animation Update!",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "block-menu": "github:riknoll/arcade-custom-menu#v0.0.1",
+        "arcade-mini-menu": "github:riknoll/arcade-mini-menu#c8b01b9d47f85a5133c786f1c026b1f376fe4285",
+        "animation": "*",
+        "arcade-character-animations": "github:microsoft/arcade-character-animations#v0.0.2",
+        "Sprite Grid": "github:microsoft/arcade-grid#v1.3.0",
+        "pxt-button-combos": "github:jwunderl/pxt-button-combos#v0.0.24",
+        "Makey Makey Keymappings": "github:joylabz/makeymakey-makecode-arcade-extension#1.0.3",
+        "Inventory": "github:UnsignedArduino/Inventory#v1.1.1",
+        "color": "*",
+        "Color Fading": "github:jwunderl/pxt-color#v0.2.2",
+        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.4.1",
+        "FastRandomBlocks": "github:UnsignedArduino/Fast-Random-Blocks#8c985a77e5c4278e43a7bc375db095c67afb58ed",
+        "arcade-split-screen": "github:riknoll/arcade-split-screen#c932ef6b9f21320f2b6307dc01c75bbd8179b278",
+        "password-save": "github:jacobcarpenter/pxt-password-save#a5d4c0766d1fa5f46428caa6885cccce703dc495",
+        "Achievements": "github:UnsignedArduino/Achievements#a578c77dd75467b9b0b5238a9a31c5fdc427cb9d",
+        "grafxkid-tiles": "github:riknoll/grafxkid-tiles#v2.0.1",
+        "pxt-zoom": "github:kiwiphoenix364/pxt-zoom#v1.2.0",
+        "TilemapPath": "github:UnsignedArduino/TilemapPath#27ff80b905e9a311d3e36aecbf38fd1fd23af8ca",
+        "arcade-soundtrack": "github:livcheerful/arcade-soundtrack#v1.0.5",
+        "arcade-shader": "github:riknoll/arcade-shader#d2a2572906fdb68ff429f337e30606b069e688ea",
+        "pxt-arcade-image-transform": "github:robo-technical-group/pxt-arcade-image-transform#v1.0.9",
+        "pxt-image-morph": "github:UnicycleDumpTruck/pxt-image-morph#v0.5.0",
+        "jacdac": "github:microsoft/pxt-jacdac#v1.8.35",
+        "arcade-premium-life": "github:jwunderl/arcade-premium-life#v0.2.1",
+        "jacdac-gamepad": "github:microsoft/pxt-jacdac/gamepad",
+        "jacdac-arcade-gamepad": "github:microsoft/pxt-jacdac/arcade-gamepad",
+        "Songs": "github:LucasMayhew/RPGMuisic#f26c7df84609da0be7af7e16d2a64dcd095c1716",
+        "jacdac-switch": "github:microsoft/pxt-jacdac/switch",
+        "controller": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts",
+        "images.g.jres",
+        "images.g.ts",
+        "jacdac.json",
+        "jacdac.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v1.8.30",
+        "tag": "v1.8.30",
+        "commits": "https://github.com/microsoft/pxt-arcade/commits/825ea9e52c6d33c12777ef204c0406661995353f",
+        "target": "1.11.37",
+        "pxt": "7.4.31",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
